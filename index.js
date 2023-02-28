@@ -18,7 +18,6 @@ const client = new Client({
 client.on(Events.ClientReady, () => {
     new DKRCommands(client, {
         eventsDir: join(__dirname, "Events"),
-        testServers: ["704122532755669022", "554186197031976990"],
     });
     client.user.setActivity('Pancake lovers suffer 🧇', { type: ActivityType.Watching });
 });
