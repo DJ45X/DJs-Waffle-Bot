@@ -1,6 +1,6 @@
 module.exports = async (instance, interaction, message) => {
     const now = new Date();
-    const options = { timezone: 'America/Chicago' };
+    const options = { timeZone: 'America/Chicago' };
     const date = now.toLocaleDateString('en-us', options);
     const time = now.toLocaleTimeString('en-us', options);
     if (interaction.content.includes("pancake")) {
