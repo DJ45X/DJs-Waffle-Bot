@@ -17,7 +17,6 @@ const client = new Client({
 
 client.on(Events.ClientReady, () => {
     new DKRCommands(client, {
-        commandsDir: join(__dirname, "Commands"),
         eventsDir: join(__dirname, "Events"),
         testServers: ["704122532755669022", "554186197031976990"],
     });
