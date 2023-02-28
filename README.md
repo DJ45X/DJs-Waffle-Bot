@@ -1,2 +1,2 @@
 # DJs-Waffle-Bot
-replies to any message with containing pancake
+replies to any message containing pancake
